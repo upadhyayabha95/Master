@@ -1,0 +1,51 @@
+router 1 
+fastethernet
+
+->enable
+->conf t
+->int fai 0/0
+->ip address 192.168.1.1 255.255.255.0
+->no shut down 
+->exit
+
+serial
+
+->enable
+->conf t
+->int serial 2/0
+->ip address 10.0.0.2 255.0.0.0
+->clock rate 720000
+->no shut down
+->exit
+
+rip
+
+router rip
+network 192.168.1.0
+network 10.0.0.0
+
+router 2
+fastethernet
+
+->enable
+->conf t
+->int fai 0/0
+->ip address 192.168.2.1 255.255.255.0
+->no shut down 
+->exit
+
+serial
+
+->enable
+->conf t
+->int serial 2/0
+->ip address 10.0.0.3 255.0.0.0
+->no clock rate
+->no shut down
+->exit
+
+rip
+
+router rip
+network 192.168.2.0
+network 10.0.0.0
