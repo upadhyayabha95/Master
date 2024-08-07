@@ -1,10 +1,6 @@
 # Master
 Hello! Friends
-I am Abha,
-Currently i am pursuing M.Tech.
+I am Abha Upadhyay,
 I am here on Github to explore my knowledge and create and contribute on project.
-I have a knowledge of Java,Python,C,php,HTML,CSS,Networking and i also know how to work on software Blender 3D.
-I done my internship from IIT Kanpur for 45 day.
-I am Gate 2018 qualified.
-Cleared up to semi-final round of IT Olympiad 2016 organised by Rotary club(Pune).
-Participated in Digital India prjects and successfully completed with full co-ordination with my team.
+I have a knowledge of Vulnerability Assessment, Unix Shell Scripting, Penetration Testing, Cyber Security, Cryptography, Nessus, OWASP, Network Security Protocol, Azure, Threat Modelling, Python, C++, MySQL, NMAP, Metasploit, Burp Suite, Kali Linux, PowerShell, IoT, AI/ML/DL, Java, PHP, HTML, CSS, Blender 3D.
+
